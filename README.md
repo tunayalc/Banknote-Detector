@@ -41,3 +41,6 @@ Bu proje, bir makine öğrenmesi modelinin sıfırdan nasıl hayata geçirildiğ
 - **`train.py`**: **Modelin Öğretmeni.** `data.yaml` ve `dataset`'i kullanarak `yolov8n.pt` modelini eğiten ve `best.pt`'yi üreten script.
 - **`detect_live.py`**: **Uygulamanın Kendisi.** `best.pt` modelini kullanarak gerçek zamanlı tespiti başlatan script.
 - **`organize.py`**, **`auto_labeler.py`**, **`finalize_dataset.py`**: **Veri Hazırlama Araçları.** Ham resimleri alıp, adım adım işleyerek eğitime hazır hale getiren yardımcı scriptler.
+
+## 6. Veriseti
+- https://github.com/ozgurshn/TurkishBanknoteDataset linkinden verisetine ulaşabilir ve benim kodlarım ile özelleştirip kullanabilirsiniz
