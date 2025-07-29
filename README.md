@@ -38,7 +38,6 @@ Bu proje, bir makine öğrenmesi modelinin sıfırdan nasıl hayata geçirildiğ
 - **`best.pt`**: **Projenin Çıktısı.** Kendi veri setimizle eğittiğimiz, en başarılı ve kullanıma hazır model dosyası.
 - **`yolov8n.pt`**: **Eğitimin Başlangıç Noktası.** Eğitime sıfırdan başlamak yerine kullandığımız, önceden eğitilmiş temel model.
 - **`data.yaml`**: **Eğitimin Pusulası.** YOLO'ya `dataset` klasörünün nerede olduğunu, kaç sınıf olduğunu ve bu sınıfların isimlerini (`5-lira`, `10-lira` vb.) bildiren yapılandırma dosyası.
-- **`dataset.zip`**: **Projenin Ham Maddesi.** Eğitimde kullanılan tüm etiketlenmiş verinin sıkıştırılmış hali.
 - **`requirements.txt`**: **Projenin Reçetesi.** Projenin çalışması için gereken tüm Python kütüphanelerini listeleyen dosya.
 - **`train.py`**: **Modelin Öğretmeni.** `data.yaml` ve `dataset`'i kullanarak `yolov8n.pt` modelini eğiten ve `best.pt`'yi üreten script.
 - **`detect_live.py`**: **Uygulamanın Kendisi.** `best.pt` modelini kullanarak gerçek zamanlı tespiti başlatan script.
