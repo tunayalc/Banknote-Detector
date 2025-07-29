@@ -9,7 +9,6 @@ Bu projenin temel amacı, bir bilgisayarın standart bir webcam aracılığıyla
 - **Model:** YOLOv8n (Ultralytics)
 - **Kütüphaneler:** PyTorch (CUDA ile), OpenCV, Pillow
 - **Dil:** Python
-- **Veri Seti:** 900 adet resimden oluşan, projeye özel hazırlanmış bir veri seti (`dataset.zip`).
 
 ## 3. Eğitim ve Test Sonuçları
 
