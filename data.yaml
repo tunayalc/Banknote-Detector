@@ -1,0 +1,18 @@
+# Veri setinin train ve validation klasörlerinin yolları
+# Bu yollar, komutu çalıştırdığımız yere (Banknote_Detector klasörü) göre ayarlandı.
+train: ./dataset/train/images
+val: ./dataset/valid/images
+test: ./dataset/test/images
+
+# Sınıf sayısı (kaç farklı para birimi tanıyorsak o sayı)
+nc: 6
+
+# Sınıf isimleri ve ID'leri.
+# Bu sıralama, etiketleri oluştururken kullandığımız class_map ile aynı olmalı.
+names:
+  0: 5-lira
+  1: 10-lira
+  2: 20-lira
+  3: 50-lira
+  4: 100-lira
+  5: 200-lira
