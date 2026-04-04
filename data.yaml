@@ -1,0 +1,16 @@
+﻿# Dataset paths (relative to repo root)
+train: ./dataset/train/images
+val: ./dataset/valid/images
+test: ./dataset/test/images
+
+# Number of classes
+nc: 6
+
+# Class names
+names:
+  0: 5-lira
+  1: 10-lira
+  2: 20-lira
+  3: 50-lira
+  4: 100-lira
+  5: 200-lira
